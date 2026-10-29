@@ -571,7 +571,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
         .. versionadded:: 2.8
         """
-        roles = self.roles[1:] # Remove @everyone
+        roles = self.roles[1:]  # Remove @everyone
 
         for role in reversed(roles):
             if role.secondary_colour is not None:
@@ -596,7 +596,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
         .. versionadded:: 2.8
         """
-        roles = self.roles[1:] # Remove @everyone
+        roles = self.roles[1:]  # Remove @everyone
 
         for role in reversed(roles):
             if role.tertiary_colour is not None:
