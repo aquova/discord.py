@@ -565,7 +565,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
     @property
     def secondary_colour(self) -> Optional[Colour]:
-        """:class:`Optional[Colour]`: A property that returns the rendered secondary colour for the member, if one exists.
+        """Optional[:class:`Colour`]: A property that returns the rendered secondary colour for the member, if one exists.
 
         There is an alias for this named :attr:`secondary_color`.
 
@@ -580,7 +580,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
     @property
     def secondary_color(self) -> Optional[Colour]:
-        """:class:`Optional[Colour]`: A property that returns the rendered secondary color for the member, if one exists.
+        """Optional[:class:`Colour`]: A property that returns the rendered secondary color for the member, if one exists.
 
         There is an alias for this named :attr:`secondary_colour`.
 
@@ -590,7 +590,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
     @property
     def tertiary_colour(self) -> Optional[Colour]:
-        """:class:`Optional[Colour]`: A property that returns the rendered tertiary colour for the member, if one exists.
+        """Optional[:class:`Colour`]: A property that returns the rendered tertiary colour for the member, if one exists.
 
         There is an alias for this named :attr:`tertiary_color`.
 
@@ -605,7 +605,7 @@ class Member(discord.abc.Messageable, _UserTag):
 
     @property
     def tertiary_color(self) -> Optional[Colour]:
-        """:class:`Optional[Colour]`: A property that returns the rendered tertiary color for the member, if one exists.
+        """Optional[:class:`Colour`]: A property that returns the rendered tertiary color for the member, if one exists.
 
         There is an alias for this named :attr:`tertiary_colour`.
 
